@@ -111,12 +111,23 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     color: black;
-    background-color: white;
+    background-color: black;
 
 }
-.sm{
-    height: 100px;
+.cn
+{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin: 40px;
     width: 100%;
+    background-color: black;
+    color: white;
+}
+.sm{
+    margin: 10px;
+    height: 100px;
+    width: 100;
     display: flex;
     justify-content: center;
     align-items: center;
