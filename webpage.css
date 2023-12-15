@@ -92,7 +92,7 @@ p{
 }
 .youtube{
     height: 300px;
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +107,7 @@ p{
     height: 200px;
     margin: 20px;
     padding-bottom: 30px;
-    width: 98%;
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     color: black;
@@ -116,7 +116,7 @@ p{
 }
 .sm{
     height: 100px;
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
