@@ -1,6 +1,12 @@
 *{
     margin: 0;
+    max-width: 100%;
     background-color:black;
+    overflow-x: hidden;
+}
+body{
+    max-width: 100%;
+    max-height: 100%;
 }
 .navbar{
     display: flex;
@@ -8,7 +14,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 60px;
-    width: 98%;
+    max-width: 100%;
     background-color:black;
     text-decoration: none;
     border: 13px solid black;
@@ -36,11 +42,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 400px;
-    width: 70%;
-    margin: 30px;
-    padding: 40px;
-    padding-bottom: 170px;
+    height: 600px;
+    max-width : 100%;
+    
     flex-shrink: 1;
 }
 
@@ -48,19 +52,25 @@ a{
     display: flex;
     flex-direction: column;
     padding-top: 80px;
+    max-width: 100%;
 
     background-color: black;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 20px;
-    width: 98%;
+
+
+}
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
 }
 .hello img{
-    height: 600px;
-    width: 75%;
-    padding-left: 300px;
-   
+    height: 500px;
+    width: 70%;
 }
 .profile img{
     height: 400px;
@@ -93,11 +103,11 @@ p{
 .youtube{
     height: 300px;
     width: 100%;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px;
 }
 .social{
     display: flex;
@@ -106,28 +116,26 @@ p{
     align-items: center;
     height: 200px;
     margin: 20px;
+    padding-top: 60px;
     padding-bottom: 30px;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
-    color: black;
+    color: white;
     background-color: black;
-
 }
 .cn
 {
     display: flex;
     justify-content: center;
-    height: 20px;
-    margin: 40px;
+    height: 200px;
     width: 100%;
-    background-color: black;
+    background-color:black;
     color: white;
 }
 .sm{
-    margin: 10px;
     height: 100px;
-    width: 100;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
